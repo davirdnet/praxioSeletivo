@@ -1,0 +1,75 @@
+.body {
+    max-width: 1366px;
+    height: 765px !important;
+    background-image: url("src\assets\image\bg-front.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 670px;
+}
+
+.row {
+    width: 100%;
+}
+
+.logo {
+    height: 29px;
+}
+
+input {
+    border: 1px #C2C2C2 solid;
+    border-radius: 6px 6px 6px 6px;
+    padding: 8px 25px 8px 25px;
+    font-size: 14px;
+    color: #C2C2C2;
+    margin: 10px 35px 0 0;
+    width: 100%;
+}
+
+.input-half {
+    width: 166px !important;
+}
+
+
+::placeholder {
+    color: #C2C2C2;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.title {
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.input-register {
+    width: 365px;
+}
+
+.button-submit {
+    border-radius: 44px;
+    border: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+    background-color: #7626FF;
+    color: #FFFFFF;
+    width: 362px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    position: absolute;
+    left: 20%;
+}
+
+.no-account {
+    font-size: 16px;
+    color: #0077C5;
+    text-align: center;
+    margin-top: 120px;
+}

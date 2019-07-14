@@ -1,7 +1,7 @@
-<div class="row">
-  <form [formGroup]="registerForm" (ngSubmit)="salvar()">
-  <div class="col-md-12">
-    <div >Logo</div>
+<form [formGroup]="registerForm" (ngSubmit)="salvar()">
+<div class="body row">
+  <div class="col-lg-12">
+    <div ><img src="..\assets\image\front-test-logo.png" class="logo" ></div>
     <div class="row">
       <div class="col-md-2">
         <!--left space-->
@@ -11,18 +11,18 @@
           <div class="col-md-12">
             <div class="row">
                 <div class="col-md-12">
-                  <label class="">Cadastrar</label> 
+                  <label class="title">Cadastrar</label> 
                 </div>
-                <div class="col-md-6">
-                  <label class="">Informações Pessoais</label>  
+                <div class="col-md-6 input-register">
+                  <label class="subtitle">Informações Pessoais</label>  
                   <input type="text" placeholder="Nome/Razão Social" formControlName="nome">
-                  <input type="text" placeholder="CPF" formControlName="cpf">
+                  <input type="text" placeholder="CPF" formControlName="cpf" class="input-half">
                   <input type="text" placeholder="Telefone" formControlName="telefone">
                   <input type="text" placeholder="Email" formControlName="email">
                   <input type="text" placeholder="Senha" formControlName="senha">
                 </div>
-                <div class="col-md-6">
-                  <label class="">Endereço</label>
+                <div class="col-md-6 input-register">
+                  <label class="subtitle">Endereço</label>
                   <input type="text" placeholder="CEP" formControlName="cep">
                   <input type="text" placeholder="Logradouro" formControlName="logradouro">
                   <input type="text" placeholder="Número" formControlName="numero">
@@ -32,14 +32,16 @@
             </div>
           </div>
           <div class="col-md-12">
-            <button type="submit">Cadastrar</button>
+            <button class="button-submit" type="submit">Cadastrar</button>
           </div>
-          <div class="col-md-12"></div>
+          <div class="col-md-12">
+            <p class="no-account">Já tem uma conta? Faça login</p>
+          </div>
         </div>
         <div class="col-md-2">
           <!--right space-->
         </div>
       </div>
     </div>
-  </form>
-</div>
+  </div>
+</form>
