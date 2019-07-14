@@ -1,0 +1,45 @@
+<div class="row">
+  <form [formGroup]="registerForm" (ngSubmit)="salvar()">
+  <div class="col-md-12">
+    <div >Logo</div>
+    <div class="row">
+      <div class="col-md-2">
+        <!--left space-->
+      </div>
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12">
+                  <label class="">Cadastrar</label> 
+                </div>
+                <div class="col-md-6">
+                  <label class="">Informações Pessoais</label>  
+                  <input type="text" placeholder="Nome/Razão Social" formControlName="nome">
+                  <input type="text" placeholder="CPF" formControlName="cpf">
+                  <input type="text" placeholder="Telefone" formControlName="telefone">
+                  <input type="text" placeholder="Email" formControlName="email">
+                  <input type="text" placeholder="Senha" formControlName="senha">
+                </div>
+                <div class="col-md-6">
+                  <label class="">Endereço</label>
+                  <input type="text" placeholder="CEP" formControlName="cep">
+                  <input type="text" placeholder="Logradouro" formControlName="logradouro">
+                  <input type="text" placeholder="Número" formControlName="numero">
+                  <input type="text" placeholder="Bairro" formControlName="bairro">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <button type="submit">Cadastrar</button>
+          </div>
+          <div class="col-md-12"></div>
+        </div>
+        <div class="col-md-2">
+          <!--right space-->
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
