@@ -1,36 +1,36 @@
-<form [formGroup]="registerForm" (ngSubmit)="salvar()">
-    <div class="body row">
-      <div class="col-lg-12">
-        <div ><img src="..\assets\image\front-test-logo.png" class="logo" ></div>
-        <div class="row">
-          <div class="col-md-2">
-            <!--left space-->
-          </div>
-          <div class="col-md-8">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-12">
-                      <label class="title">Entrar</label> 
-                    </div>
-                    <div class="input-register">  
-                      <input type="text" placeholder="Email" formControlName="email">
-                      <input type="text" placeholder="Senha" formControlName="senha">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-12">
-                <button class="button-submit" type="submit">Cadastrar</button>
-              </div>
-              <div class="col-md-12">
-                <p class="no-account">Já tem uma conta? Faça login</p>
+<form [formGroup]="loginForm" (ngSubmit)="login()">
+  <div class="body row">
+    <div class="col-lg-12">
+      <div><img src="..\assets\image\front-test-logo.png" class="logo"></div>
+      <div class="row">
+        <div class="col-md-2">
+          <!--left space-->
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-12">
+              <label class="title">Entrar</label>
+            </div>
+            <div class="col-md-12">
+              <div class="input-register padding-left15">
+                <input type="text" placeholder="Email" formControlName="email">
+                <input type="password" placeholder="Senha" formControlName="senha">
               </div>
             </div>
-            <div class="col-md-2">
-              <!--right space-->
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <button class="button-submit" type="submit">Entrar</button>
+            </div>
+            <div class="col-md-12">
+              <p class="no-account" (click)="register()">Não tem uma conta? Cadastre-se</p>
             </div>
           </div>
         </div>
+        <div class="col-md-2">
+          <!--right space-->
+        </div>
       </div>
-    </form>
+    </div>
+  </div>
+</form>

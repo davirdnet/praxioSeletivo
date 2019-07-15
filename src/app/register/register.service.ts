@@ -14,7 +14,7 @@ export class RegisterService {
   constructor(private http: HttpClient) { }
 
   postRegister(data: Register) {
-    const options = { headers: new HttpHeaders({'Content-Type': 'application/json', 'accept': 'application/json'})};
+    const options = { headers: new HttpHeaders({'Content-Type': 'application/json'})};
     console.log('data ', data);
     return this.http.post(this.apiUrl + '/api/Usuario', data, options);
   }

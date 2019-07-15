@@ -1,0 +1,161 @@
+body {
+overflow-x: hidden;
+}
+
+
+/* Presentational style rules only
+ * Not required
+ */
+
+ html, body, .container {
+    height: 100%;
+  }
+  
+  
+  
+  h1 {
+    color: #FFF;
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  
+  /* Layout */
+  .container {
+    display: table;
+    padding-top: 80px;
+    width: 100%;
+  }
+  
+  .content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .imgBack {
+    background-image: url(src\assets\image\bg-front.png);
+    background-position: center center;
+    background-attachment: fixed;
+    height: 765px !important;
+    background-image: url("src\assets\image\bg-front.png");
+    background-repeat: no-repeat;
+    background-size: contain;     
+    overflow-x: hidden;
+  }
+  
+  form{
+      height: 500px;
+      overflow-x: hidden;
+  }
+
+  .logoFrontTest{
+    height: 145px;
+    margin-top: 52px;
+    margin-bottom: 30px;
+  }
+
+
+.button-submit {
+    border-radius: 44px;
+    border: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+    background-color: #7626FF;
+    color: #FFFFFF;
+    width: 362px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    position: absolute;
+    left: 20%;
+}
+
+
+.inputBottom {
+    border: 1px #fff solid;
+    border-radius: 6px 6px 6px 6px;
+    padding: 4px 15px 7px 15px;
+    color: #ffffff;
+    margin: 10px 0;
+    background-color: #733fff;
+    font-size: 12px;
+    margin-bottom: 20px;
+    width: 90px;
+}
+
+.button-logout {
+
+    border-radius: 44px;
+    width: 98px;
+    border: 1px solid #bfc3ff;
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23); */
+    background-color: rgb(255, 255, 255);
+    color: #212529;
+    font-size: 10px;
+    /* font-weight: bold; */
+    margin-top: 20px;
+    position: absolute;
+    margin: 14px;
+}
+
+.textWhite{
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.textBlack{
+    color: #733fff;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.textBlackPeq{
+    color: #000000;
+    font-size: 11px;
+    margin-top: 35px;
+}
+
+.quadro{
+    
+    border: 1px solid #bfc3ff;
+    border-radius: 5px;
+    background-color: white;
+    background-image: url("src\assets\image\bg-front.png");
+    background-repeat: no-repeat;
+    background-size: 57%;
+    
+    text-align: center;
+    background-position-y: 72px;
+    background-position-x: center;
+    
+}
+
+.button-submitPeq{
+    border-radius: 44px;
+    border: 0;
+    background-color: #7626FF;
+    color: #FFFFFF;
+    font-size: 11px;
+    padding: 5px 23px;
+    font-size: 11px;
+    margin-bottom: 15px;
+    
+}
+
+.button-submit {
+    border-radius: 44px;
+    border: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+    background-color: #7626FF;
+    color: #FFFFFF;
+    width: 362px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    position: absolute;
+    left: 20%;
+}

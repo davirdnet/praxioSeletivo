@@ -16,8 +16,14 @@
                 <div class="col-md-6 input-register">
                   <label class="subtitle">Informações Pessoais</label>  
                   <input type="text" placeholder="Nome/Razão Social" formControlName="nome">
-                  <input type="text" placeholder="CPF" formControlName="cpf" class="input-half">
-                  <input type="text" placeholder="Telefone" formControlName="telefone">
+                  <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" placeholder="CPF" formControlName="cpf">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Telefone" formControlName="telefone">
+                  </div>
+                  </div>
                   <input type="text" placeholder="Email" formControlName="email">
                   <input type="text" placeholder="Senha" formControlName="senha">
                 </div>
