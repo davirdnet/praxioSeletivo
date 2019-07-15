@@ -8,6 +8,7 @@ import {
 import { Constants } from '../shared/constants';
 import { Register } from './register';
 import { RegisterService } from './register.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-register',
@@ -19,7 +20,8 @@ export class RegisterComponent implements OnInit {
   registerForm: FormGroup;
   constructor(
     private formBuilder: FormBuilder,
-    private registerService: RegisterService
+    private registerService: RegisterService,
+    private _router: Router
   ) { }
 
   ngOnInit() {
@@ -57,6 +59,10 @@ export class RegisterComponent implements OnInit {
           console.log('Post Fail ', data);
         }
       });
-}
+  }
+
+  login() {
+    this._router.navigate(['/login']);
+  }
 
 }

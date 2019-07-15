@@ -71,6 +71,7 @@ input {
     color: #0077C5;
     text-align: center;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .padding-left15 {
